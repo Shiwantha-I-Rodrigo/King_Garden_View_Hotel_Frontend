@@ -1,0 +1,48 @@
+.welcome-heading {
+  background-image: url("../../../public/images/welcome/image-heading.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 40vh;
+  line-height: 40vh;
+  position: relative;
+  z-index: -2;
+}
+.welcome-heading .container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+.welcome-heading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  height: 40vh;
+  width: 100%;
+  z-index: -1;
+}
+.welcome-heading h1 {
+  font-size: 100px;
+  text-transform: capitalize;
+  -webkit-text-fill-color: rgba(4, 71, 26, 0.534);
+  -webkit-text-stroke: 2px;
+}
+.welcome-heading button {
+  background: black;
+  color: white;
+  font-weight: 400;
+  padding: 15px 30px;
+  word-spacing: 5px;
+}
+.welcome-heading a {
+  color: #31b675;
+  cursor: pointer;
+}
+.welcome-heading span {
+  text-transform: capitalize;
+  word-spacing: 30px;
+}
