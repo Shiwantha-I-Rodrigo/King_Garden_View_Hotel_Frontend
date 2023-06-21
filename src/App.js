@@ -11,7 +11,6 @@ import Gallery from "./Components/Gallery/Gallery"
 import Messages from "./Components/Messages/Messages"
 import Contact from "./Components/Contact/Contact"
 import Login from "./Components/Login/Login"
-import Register from "./Components/Login/Register"
 /*-------------auth------------ */
 import { AuthProvider } from './Components/Auth/AuthContext'
 import ProtectedRoute from './Components/Auth/ProtectedRoute'
@@ -34,7 +33,6 @@ function App() {
           <Route path='/messages' component={Messages} />
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
-          <Route path='/register' component={Register} />
           <ProtectedRoute path="/dashboard" component={Dashboard} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/stats" component={Stats} />

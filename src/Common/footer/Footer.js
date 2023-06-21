@@ -9,9 +9,7 @@ const Footer = () => {
         <div className='container grid'>
           <div className='box'>
             <h2>ABOUT US</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet consectetur adipiscing elit sed et eletum.</p>
-            <br />
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet.</p>
+            <p>We are delighted to have you as our guest and extend a warm welcome to our cozy and inviting establishment. From the moment you step through our doors, we are dedicated to ensuring your stay with us is comfortable, memorable, and filled with delightful experiences.</p>
             <div className='icon flex_space'>
               <a href='https://web.facebook.com/people/King-Garden-View-Hotel/100063108257390/'><img src="/images/social/fb.png" alt='' height="40"/></a>
               <a href='https://www.trip.com/hotels/badulla-hotel-detail-47516155/king-garden-view-hotelking-garden-view-hotel/ '><img src="/images/social/tr.png" alt='' height="40"/></a>
@@ -28,7 +26,7 @@ const Footer = () => {
                 <Link to='/'>Home</Link>
               </li>
               <li>
-                <Link to='/about'>About us</Link>
+                <Link to='/about'>About Us</Link>
               </li>
               <li>
                 <Link to='/gallery'>Gallery</Link>
@@ -68,7 +66,7 @@ const Footer = () => {
 
           <div className='box'>
             <h2>NEWSLETTER</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
+            <p>Subscribe to our newslatter for latest news about offers and packages.</p>
 
             <input type='text' name='' id='' />
             <input type='text' className='primary-btn' value='SUBSCRIBE' />

@@ -86,7 +86,7 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to='/register'>
+                      <Link to='/'>
                         <button className='primary-btn'><b>Register</b></button>
                       </Link>
                     </li>

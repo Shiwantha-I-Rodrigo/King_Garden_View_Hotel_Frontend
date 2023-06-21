@@ -1,9 +1,16 @@
 import React from 'react'
+import Create from './create'
+import Read from './read'
+import Update from './update'
 
-const Dashboard = () => (
-  <div className="container">
-    <h2>User Dashboard</h2>
-  </div>
-)
+const Dashboard = () => {
+  return (
+    <>
+      <Create/>
+      <Read/>
+      <Update/>
+    </>
+  )
+}
 
 export default Dashboard

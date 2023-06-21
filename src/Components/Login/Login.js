@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import { AuthConsumer } from "../Auth/AuthContext"
-import "./Design.css"
+import "./Login.css"
 
 const Login = () => {
   const [email, setEmail] = useState("")
@@ -44,7 +44,7 @@ const Login = () => {
                 Sign In
               </button>
               <p>
-                Don't have account? <Link to='/register'>Signup!</Link>
+                Don't have account? <Link to='/'>Signup!</Link>
               </p>
             </form>
           </div>
